@@ -1,0 +1,27 @@
+{
+  "name": "expertees-layout",
+  "version": "v0.0.1",
+  "authors": [
+    "Expertees <ties@expertees.nl>"
+  ],
+  "description": "Base HTML/CSS for Expertees style layouts",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "http://expertees.nl",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fastclick": "~1.0.6",
+    "jquery": "~2.2.2",
+    "component-modernizr": "~2.8.3",
+    "normalize-css": "~4.0.0",
+    "jquery-validation": "^1.15.0"
+  }
+}
+
