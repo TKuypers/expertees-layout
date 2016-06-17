@@ -1,0 +1,92 @@
+<!-- app.html -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+        
+        <!-- iOS -->
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-touch-fullscreen" content="yes">
+        <meta name="apple-mobile-web-app-title" content="">
+
+
+        <!-- libraries -->
+        <link rel="stylesheet" type="text/css" href="/vendor/normalize-css/normalize.css" />
+
+        <!-- styles -->
+        <link rel="stylesheet" type="text/css" href="/css/fonts.css" />
+        <link rel="stylesheet" type="text/css" href="/css/assets.css" />
+        <link rel="stylesheet" type="text/css" href="css/main.css" />  
+
+        <link rel="stylesheet" type="text/css" href="css/app/main.css" />  
+    
+        <link rel="stylesheet" href="/css/app/portrait.css" media="only screen and (min-width: 768px)">
+        <link rel="stylesheet" href="/css/app/landscape.css" media="only screen and (min-width: 1024px)">
+
+        <title>App</title>
+
+    </head>
+
+    <body>
+        
+        <div class="layout-main-wrapper">
+
+			<div class="layout-header-main-wrapper">
+				
+				<header class="header-main">
+					<h1 class="header-main-title">Experticketing</h1>
+                    <div class="search-toggle-button">Search</div>
+				</header>
+
+			</div>
+
+            <div class="search-field-container">
+                <form role="search" method="get" class="search-form" action="/">
+                    <input type="search" class="search-field" placeholder="Zoek op naam..." value="" name="search">
+                    <div class="erase-search-button">Erase</div>
+                </form>
+            </div>
+
+			<div class="layout-content-wrapper">
+				<main class="content-main">
+
+				</main>
+			</div>
+
+
+			<div class="layout-footer-wrapper">
+
+			<footer class="footer-main">
+
+                <nav class="main-nav">
+                    <ul class="main-nav-items-list">
+                        <li class="main-nav-item">
+                            <a class="main-nav-button cash-register-button">Kassa</a>
+                        </li>
+                        <li class="main-nav-item main-nav-item-active">
+                            <a class="main-nav-button tickets-button">Tickets</a>
+                        </li>
+                        <li class="main-nav-item">
+                            <a class="main-nav-button guests-button">Gasten</a>
+                        </li>
+                        <li class="main-nav-item">
+                            <a class="main-nav-button settings-button">Instellingen</a>
+                        </li>
+                    </ul>
+                </nav>
+
+			</footer>
+
+			</div>
+
+		</div>
+       
+
+        <!-- javascripts -->
+
+
+    </body>
+</html>

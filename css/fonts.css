@@ -1,1 +1,36 @@
 /* fonts.css  */
+@font-face {
+    font-family: 'source_sans_pro';
+    src: url('/assets/fonts/SourceSansPro-Bold.otf');
+    src: url('/assets/fonts/SourceSansPro-Bold.ttf') format('truetype');
+    /*
+         url('../fonts/SourceSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-Bold.woff') format('woff'),
+         url('../fonts/SourceSansPro-Bold.svg#droid_sansbold') format('svg');
+    */
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_pro';
+    src: url('/assets/fonts/SourceSansPro-Regular.otf');
+    src: url('/assets/fonts/SourceSansPro-Regular.ttf') format('truetype');
+    /*
+         url('../fonts/SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-Regular.woff') format('woff'),
+         url('../fonts/SourceSansPro-Regular.svg#droid_sansregular') format('svg');
+    */
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Museo700';
+    src: url('/assets/fonts/Museo700-regular.otf');
+    src: url('/assets/fonts/Museo700-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
