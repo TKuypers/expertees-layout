@@ -1,2 +1,70 @@
+## STANDARD
 .DS_Store
 sftp-config.json
+Thumbs.db
+
+## MINIFIED FILES
+*/compressed/*
+!*/compressed/index.html
+
+
+## EXPRESSIONENGINE
+## images
+images/avatars/*
+images/captchas/*
+images/member_photos/*
+images/pm_attachments/*
+images/signature_attachments/*
+images/uploads/*
+!images/avatars/index.html
+!images/captchas/index.html
+!images/member_photos/index.html
+!images/pm_attachments/index.html
+!images/signature_attachments/index.html
+!images/uploads/index.html
+!images/uploads/*/index.html
+
+## environment files
+system/user/config/env/*
+#!system/user/config/env/[live-host].php
+
+## cached files
+system/user/cache/*
+!system/user/cache/index.html
+
+
+## BOWER
+vendor/
+
+## LARAVEL
+*/storage/*
+!*/storage/index.html
+*/database.php
+*/app.php
+bootstrap/compiled.php
+Homestead.yaml
+Homestead.json
+composer.phar
+composer.lock
+.env
+.env.*.php
+.env.php
+vendor/
+
+
+## CORDOVA
+node_modules
+npm-debug.log
+certificates/*
+packages/*
+platforms/ios/build/
+platforms/ios/www/
+platforms/android/.gradle/
+platforms/android/build/
+platforms/android/assets/www/
+platforms/android/android.iml
+*.mode1v3
+*.perspectivev3
+*.pbxuser
+.DS_Store
+build/
